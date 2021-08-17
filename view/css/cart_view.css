@@ -1,0 +1,102 @@
+.update_info {
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.user_info {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+    border: solid 1px;
+}
+img {
+    max-width: 100px;
+    max-height: 180px;
+}
+/* body----------------------------*/
+body {
+padding-top: 90px; /* ヘッダーの後ろに要素が隠れないようにするため */
+}
+.item_part {
+    width: 20%;
+    border: 1px solid;
+}
+
+/* --------------------------------*/
+
+/* main内--------------------------*/
+main {
+position: relative;
+top: 60px;
+}
+.cart_list {
+    display: flex;
+}
+ .cart_list {
+    position: relative;
+    left: 15%;
+}
+    
+.item_list {
+    justify-content: space-between;
+    display: flex;
+}
+.item_part {
+    width: 200px;
+}
+.itemImg {
+    height: 180px;
+    text-align: center;
+}
+.itemTitle ,.item_form ,.itemDetail,.item_price, .itemDetail {
+    text-align: center;
+}
+
+.soldout {
+    color: red;
+}
+/*-----------------------------------*/
+
+/* nav-------------------------------*/
+.buy {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.buy h2 {
+    margin: 0;
+}
+.sum_cal {
+    display: flex;
+    margin: 0;
+}
+/*-----------------------------------*/
+
+/* header内---------------------------*/
+header {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    box-sizing: border-box;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.userpage {
+    width: 20%;
+}
+
+header h1 {
+    width: 20%;
+    margin-left: 5%;
+}
+/*-----------------------------------*/
